@@ -1,0 +1,86 @@
+# ================================
+# Python cache & compiled files
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ================================
+# Virtual environments
+# ================================
+venv/
+.venv/
+env/
+ENV/
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ================================
+# Database files
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ================================
+# Logs
+# ================================
+logs/
+*.log
+
+# ================================
+# Migrations & runtime artifacts
+# ================================
+alembic/versions/__pycache__/
+celerybeat-schedule
+celerybeat.pid
+
+# ================================
+# Testing & coverage
+# ================================
+.coverage
+coverage/
+htmlcov/
+
+# ================================
+# OS / Editor files
+# ================================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# Build / packaging
+# ================================
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Security & secrets
+# ================================
+*.pem
+*.key
+
+# ================================
+# Optional future additions
+# ================================
+# Docker
+.env.docker
+
+# ================================
+# Misc
+# ================================
+pytest_cache/
